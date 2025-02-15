@@ -1,0 +1,113 @@
+
+
+
+.Skill-container{
+    width: 100%;
+min-height: 300px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+   
+  }
+  
+   
+
+
+.skill{
+    color:  black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.skill ul{
+
+    padding: 1rem;
+display: flex;
+justify-content:center;
+flex-wrap: wrap;
+align-items: center;
+list-style: none;
+gap: 14px;
+text-align: center;
+
+}
+
+
+.skill ul li{
+    font-size: 50px;
+    
+
+}
+
+
+.html, .css, .php, .react, .js, .sql{
+    width: 150px;
+    /* padding: 2rem 1rem 2rem 1rem; */
+    border-radius: 5px;
+    padding: 1rem;
+   margin: 1rem;
+
+
+    background-color:rgba(228, 228, 228, 0.432);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.1s linear;
+}
+
+
+.html{
+    color: rgba(255, 0, 0, 0.753);
+}
+
+.css{
+    color: rgb(0, 132, 255);
+}
+
+.js{
+    color: rgb(202, 202, 41);
+}
+
+.react{
+    color: rgba(0, 132, 255, 0.836);
+
+}
+
+.php{
+    color:rgb(77, 86, 212);
+}
+
+.sql{
+    color:rgb(38, 139, 210);
+}
+.label{
+    color:rgba(0, 0, 0, 0.87);
+}
+
+
+.html:hover, .css:hover, .php:hover, .react:hover, .js:hover, .sql:hover{
+scale: 1.1;
+}
+
+
+
+
+
+
+@media screen and (max-width:450px){
+    .html, .css, .php, .react, .js, .sql{
+        width: 100px;
+        margin: 0.5rem;
+    }
+  .skill ul{
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .skill{
+
+}
+}

@@ -1,0 +1,150 @@
+
+
+
+
+main.content {
+  flex: 1; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.language-icons{
+  display: flex;
+  justify-content:start;
+  color: #333;
+  width: 100%;
+
+}
+
+.description-h4{
+  color: #333;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+ height: 40px;
+}
+
+.icons-container{
+  display: flex;
+  justify-content:center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.icons-container img{
+  width: 30px;
+  height: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #007BFF;
+}
+
+
+
+
+.button{
+  width: 100%;
+}
+
+.project-container-h2{
+  text-align: center;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  background-color:rgba(120, 212, 34, 0.712);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+}
+
+.project-container-h2 h2{
+  color: white;
+}
+
+
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+
+  
+}
+
+.project-card {
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color:rgba(228, 228, 228, 0.432);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  
+  
+}
+
+
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card h3 {
+  margin: 0 0 10px 0;
+  /* color: #333; */
+  color:  black;
+}
+
+.project-card p {
+  color: #666;
+  font-size: 14px;
+
+}
+
+.project-card a {
+  /* color: #007BFF; */
+color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 15px 5px 15px;
+  width: calc(100% - 10%);
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color:rgba(120, 212, 34, 0.712);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.image-container{
+  padding: 1rem;
+  overflow: hidden;
+}

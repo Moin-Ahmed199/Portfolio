@@ -1,0 +1,36 @@
+[
+
+{
+"id":1,
+"title":"Project",
+"img":"./Gallery images/1.webp",
+"url":""
+},
+
+{
+"id":2,
+"title":"Project",
+"img":"./Gallery images/2.webp",
+"url":""
+},
+
+
+{
+"id":4,
+"title":"Project",
+"img":"./Gallery images/4.webp",
+"url":""
+},
+
+{
+"id":5,
+"title":"Project",
+"img":"./Gallery images/5.webp",
+"url":""
+}
+
+
+
+
+
+]

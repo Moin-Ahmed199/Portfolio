@@ -1,0 +1,32 @@
+
+[
+   
+   
+    {
+        "name": "Restaurant Website 🍽️",
+        "description": "A mobile-friendly restaurant website showcasing the menu, contact details, and location, built with HTML, CSS, and JavaScript. 📍",
+        "link": "https://cwmfoodwebsite.netlify.app/",
+        "technologies":["htmlicon","cssicon","jsicon"]
+    },
+    {
+        "name": "Dryfruit Website 🍇",
+        "description": "A responsive website for a dry fruit reseller, featuring a product catalog and clean design using HTML, CSS, and JavaScript. 🛍️",
+        "link": "https://cwmdryfruits.netlify.app/",
+        "technologies":["htmlicon","cssicon","jsicon"]
+    },
+   
+    {
+        "name": "Admin Panel 🖥️",
+        "description": "A dashboard for managing users and products, designed with HTML and CSS for efficient admin control. ⚙️",
+        "link": "https://cwmadminpanel.netlify.app/",
+        "technologies":["htmlicon","cssicon","jsicon"]
+    },
+   
+    {
+        "name": "Dynamic Data E-Commerce 🛒",
+        "description": "An e-commerce platform with cart management (add/remove items, update quantity), built using HTML, CSS, and JavaScript. 💳",
+        "link": "https://codewithmoin.netlify.app/",
+        "technologies":["htmlicon","cssicon","jsicon"]
+    }
+  
+]
